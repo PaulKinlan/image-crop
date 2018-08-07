@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "image-crop",
+  "name": "crop.plus",
   "version": "0.0.0",
   "license": "apache-2.0",
   "scripts": {
@@ -68,6 +68,7 @@
     "preact": "^8.2.9",
     "preact-i18n": "^1.2.2",
     "preact-material-components": "^1.4.7",
-    "preact-router": "^2.6.1"
+    "preact-router": "^2.6.1",
+    "now": "^11.3.8"
   }
 }

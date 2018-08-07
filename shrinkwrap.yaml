@@ -5,6 +5,7 @@ dependencies:
   comlink-loader: 1.0.0
   filesize: 3.6.1
   material-components-web: 0.32.0
+  now: 11.3.8
   preact: 8.3.0
   preact-i18n: 1.2.2
   preact-material-components: 1.5.0
@@ -6335,6 +6336,12 @@ packages:
       node: '>=4'
     resolution:
       integrity: sha512-D6MUW4K/VzoJ4rJ01JFKxDrtY1v9wrgzCX5f2qj/lzH1m/lW6MhUZFKerVsnyjOhOsYzI9Kqqak+10l4LvLpMw==
+  /now/11.3.8:
+    dev: false
+    hasBin: true
+    requiresBuild: true
+    resolution:
+      integrity: sha512-gHqGhtSaaLmaKbLGWxSDzCt7Wvc6xRNJZRnygHaFwChkaDeCDbpUYcxp8lNIms6w1hbbXe7iGhPE3FdlRONg4w==
   /npm-run-all/1.4.0:
     dependencies:
       babel-polyfill: 6.26.0
@@ -9679,6 +9686,7 @@ specifiers:
   material-components-web: ^0.32.0
   mini-css-extract-plugin: ^0.3.0
   node-sass: ^4.9.2
+  now: ^11.3.8
   optimize-css-assets-webpack-plugin: ^4.0.3
   preact: ^8.2.9
   preact-i18n: ^1.2.2
