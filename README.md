@@ -1,1 +1,4 @@
-# image-crop
+# Image Crop !
+
+Image Crop crops images.
+
