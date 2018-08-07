@@ -12,4 +12,4 @@ COPY . .
 
 # Build and export the app
 RUN npm run build &&   
-  yarn export -o /public
+  mv build/ public/
