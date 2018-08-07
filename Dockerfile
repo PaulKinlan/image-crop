@@ -3,7 +3,7 @@ FROM mhart/alpine-node
 # Set the default working directory
 WORKDIR /usr/src
 
-# Copy the relevant files to the working directory
+# Copy the relevant files to the working directory.
 COPY . .
 RUN npm i
 
