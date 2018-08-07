@@ -1,8 +1,6 @@
 {
   "name": "crop.plus",
-  "alias": [
-    "crop.plus"
-  ],
+  "alias": "crop.plus",
   "type": "static",
   "static": {
     "headers": [

@@ -65,10 +65,10 @@
     "comlink-loader": "^1.0.0",
     "filesize": "^3.6.1",
     "material-components-web": "^0.32.0",
+    "now": "^11.3.8",
     "preact": "^8.2.9",
     "preact-i18n": "^1.2.2",
     "preact-material-components": "^1.4.7",
-    "preact-router": "^2.6.1",
-    "now": "^11.3.8"
+    "preact-router": "^2.6.1"
   }
 }
