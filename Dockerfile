@@ -8,4 +8,4 @@ COPY . .
 RUN npm i
 
 # Build and export the app.
-RUN npm run build && mv build/ public/
+RUN npm run build && mv build/ /public
