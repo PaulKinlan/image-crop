@@ -1,0 +1,67 @@
+/*
+Note: These styles are temporary. They will be replaced before going live.
+*/
+
+.app {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  contain: strict;
+  background-color: #1D1E22;
+}
+
+div.app {
+  
+  height: 100%;
+  
+  input {
+    display: inline-block;
+    width: 16em;
+    padding: 5px;
+    margin: 0 auto;
+    -webkit-appearance: none;
+    border: 1px solid #b68c86;
+    background: #f0d3cf;
+    box-shadow: inset 0 0 1px #fff;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+}
+
+:global { 
+  
+  #crop {
+    position: absolute;
+    bottom: 0;
+  }
+  
+  #debug {position: absolute;}
+  
+  pinch-zoom {
+    height: 100%;
+    width: 100%;
+  }
+  
+  file-drop {
+    overflow: hidden;
+    touch-action: none;
+    height:100%;
+    width:100%;
+
+    &.drop-valid {
+      transition: opacity 200ms ease-in-out, background-color 200ms;
+      opacity: 0.5;
+      background-color:green;
+    }
+
+    &.drop-invalid {
+      transition: opacity 200ms ease-in-out, background-color 200ms;
+      opacity: 0.5;
+      background-color:red;
+    }
+  }
+}
