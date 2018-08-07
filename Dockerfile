@@ -10,5 +10,5 @@ RUN npm
 # Copy the relevant files to the working directory
 COPY . .
 
-# Build and export the app
+# Build and export the app.
 RUN npm run build && mv build/ public/
