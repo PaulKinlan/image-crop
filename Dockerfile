@@ -11,5 +11,4 @@ RUN npm
 COPY . .
 
 # Build and export the app
-RUN npm run build &&   
-  yarn export -o /public
+RUN npm run build && mv build/ public/
